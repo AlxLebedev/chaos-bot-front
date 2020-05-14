@@ -1,8 +1,8 @@
 # AHJ-Diplom
 
-## AppVeyor status ![AppVeyor Status]()
+## AppVeyor status ![AppVeyor Status](https://ci.appveyor.com/api/projects/status/5f1amjsxo4la6k7f?svg=true)
 
-[Link]() to deployment
+[Link](https://alxlebedev.github.io/chaos-bot-front/) to deployment
 
 ## Реализованные основные функции:
 * Текстовые сообщения
