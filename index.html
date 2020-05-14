@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chaos-bot</title>
+<link href="main.css" rel="stylesheet"></head>
+<body>
+  <div class="password-window">
+    <p>Enter a password to see your history</p>
+    <input type="text" id="password-input-field">
+    <div class="button" id="password-ok-button">OK</div>
+  </div>
+  <div class="app-window hidden">
+    <div class="app-header">
+      <input type="file" id="input-type-file">
+      <div class="handle-add-file av"></div>
+      <div id="favorits" class="favor av"></div>
+    </div>
+    <div class="messages-field"></div>
+    <div class="input-container">
+      <textarea type="text" id="input-message-field"></textarea>
+      <div class="av-buttons">
+        <div class="recording-buttons">
+          <div id="audio-rec-button" class="av"></div>
+          <div id="video-rec-button" class="av"></div>
+          <div class="geo-button av"></div>
+        </div>
+        <div class="stop-recording-buttons hidden">
+          <div id="save-rec-button" class="av"></div>
+          <span id="timer">00:00</span>
+          <div id="cancel-rec-button" class="av"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="export-history">export-history</div>
+<script type="text/javascript" src="app.bundle.js"></script></body>
+</html>
